@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sekolah Triguna</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link href="website.css" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- BAGIAN NAVBAR -->
+        <nav class="navbar navbar-expand-lg">
+            <!-- LOGO UNTUK NAVBAR -->
+            <a class="navbar-brand" href="index.html">
+                <img src="asset/LogoTriguna.png" class="img-fluid" alt="Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="iconify" data-inline="false" data-icon="codicon:three-bars" style="font-size: 24px; color: black;"></span>
+            </button>
+
+            <!-- MENU NAVBAR -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Visi Misi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hubungi Kami</a>
+                    </li>
+
+                    <!-- FORM PENCARIAN DI NAVBAR -->
+                    <form class="form-inline">
+                        <input type="text" class="search" placeholder="Cari" />
+                        <button type="submit" class="btn-search">
+                            <span class="iconify" data-inline="false" data-icon="ant-design:search-outlined"
+                                style="color: #0573ab; font-size: 30px;"></span>
+                        </button>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- BAGIAN CAROUSEL UTAMA-->
+        <section id="carousel-indicators" class="carousel slide" data-ride="carousel">
+            <!-- INDICATOR SLIDER-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-indicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-indicators" data-slide-to="1"></li>
+            </ol>
+
+            <!-- KONTEN CAROUSEL-->
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-background-1">
+                    <article class="wrapper">
+                        <h4>SMA Triguna 1956</h4>
+                        <h1>Berpikir kritis, dan memiliki pedoman religiosity</h1>
+                    </article>
+                </div>
+                <div class="carousel-item carousel-background-1">
+                    <article class="wrapper">
+                        <h4>Subtitle</h4>
+                        <h1>Title</h1>
+                    </article>
+                </div>
+            </div>
+
+            <!-- KONTROLLER CAROUSEL UNTUK BISA NEXT ATAU PREVIOUS-->
+            <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
+                <span class="iconify" data-inline="false" data-icon="bi:chevron-left"
+                    style="color: #ffffff; font-size: 70px;"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-indicators" role="button" data-slide="next">
+                <span class="iconify" data-inline="false" data-icon="bi:chevron-right"
+                    style="color: #ffffff; ; font-size: 70px;"></span>
+            </a>
+        </section>
