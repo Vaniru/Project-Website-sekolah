@@ -5,13 +5,13 @@
   
   .container-fluid .navbar {
     background-color: #ffffff;
-    width: 90%;
+    width: 95%;
     position: absolute;
     top: 5vh;
     z-index: 1000;
     border-radius: 15px;
     padding: 1vh 5vw;
-    left: 5vw;
+    left: 3vw;
   }
   
   .container-fluid .navbar .navbar-brand img {
@@ -44,7 +44,13 @@
   }
   
   .carousel-background-1 {
-    background: url("asset/Temporary\ cover.jpeg") no-repeat;
+    background: url("asset/Temporarycover.jpeg") no-repeat;
+    height: 85vh;
+    background-size: 100% 100%;
+  }
+
+  .carousel-background-3 {
+    background: url("asset/TerpaduSangat.jpeg") no-repeat;
     height: 85vh;
     background-size: 100% 100%;
   }
@@ -225,8 +231,8 @@
   
   .container-fluid .gallery {
     padding: 10vh 0;
-    background-color: #0573ab;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #0573ab;
     height: 750px;
   }
   
@@ -284,7 +290,7 @@
   
   .container-fluid .gallery .wave {
     position: relative;
-    top: -200px;
+    top: -22vh;
   }
   
   .container-fluid .contact {
@@ -380,7 +386,7 @@
   
   .container-fluid footer {
     background-color: #0573ab; 
-    padding: 10vh 10vw;
+    padding: 9vh 10vw;
     color: #ffffff; 
     text-transform: capitalize;
     font-family: "Poppins", sans-serif;
@@ -624,6 +630,6 @@
       margin-left: 0.3vh;
     }
     .container-fluid .gallery .wave {
-      top: -21vh;
+      top: -30vh;
     }
   }
