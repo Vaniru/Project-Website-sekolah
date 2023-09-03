@@ -5,13 +5,13 @@
   
   .container-fluid .navbar {
     background-color: #ffffff;
-    width: 85%;
+    width: 90%;
     position: absolute;
     top: 5vh;
     z-index: 1000;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 1vh 5vw;
-    left: 8vw;
+    left: 5vw;
   }
   
   .container-fluid .navbar .navbar-brand img {
@@ -44,7 +44,7 @@
   }
   
   .carousel-background-1 {
-    background: url("asset/cover.jpg") no-repeat;
+    background: url("asset/Temporary\ cover.jpeg") no-repeat;
     height: 85vh;
     background-size: 100% 100%;
   }
