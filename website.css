@@ -3,8 +3,17 @@
     font-family: "Open Sans", sans-serif;
   }
   
-  .section{
+  .container-fluid .section{
     margin: 40vh 0vw;
+  }
+  .container-fluid .section .wave{
+    position: relative;
+    top: 45vh;
+  }
+
+  .container-fluid .wave{
+    position: relative;
+    top: 1vh;
   }
   .container-fluid .navbar {
     background-color: #ffffff;
@@ -196,10 +205,17 @@
     padding: 0 2vw;
   }
   
+  /*original code has no fucking comments!!!
+  anyway this part is just defining some mid margin text*/
+
   .container-fluid .news {
     padding: 10vh 10vw;
   }
   
+  .container-fluid .Retard {
+    padding: 10vh 10vw
+  }
+
   .container-fluid .news h4 {
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -252,7 +268,52 @@
     color: #0573ab;
     height: 750px;
   }
+
+
+/*FOR FASIL PAGE!!!!*/
+  .container-fluid .BANGAST {
+    padding: 30vh 5vw;
+    color: #0573ab;
+    height: 1400px;
+    text-align: center;
+  }
+  .container-fluid .BANGAST .bg{
+    background-image: url("asset\front.jpeg") no-repeat;
+    height: 85vh;
+    background-size: 100% 100%;
+  }
   
+
+  .container-fluid .BANGAST h4 {
+    font-family: "Poppins";
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .container-fluid .BANGAST h3 {
+    font-family: "Poppins";
+    font-weight: 200;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .corners2 {
+    border-radius: 25px;
+    border: 5px solid #0573ab;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+  }
+  
+  .container-fluid .BANGAST p {
+    font-family: "Poppins";
+    color: rgb(0, 0, 0);
+    text-align: left;
+  }
+/*FOR FASIL PAGE/n!!!!*/
+
+
+
+
   .container-fluid .gallery h4 {
     font-family: "Poppins";
     font-weight: 600;
@@ -277,7 +338,7 @@
     );
     padding: 5vh 2vw;
     position: relative;
-    top: -39vh;
+    top: -38vh;
     height: 250px;
     cursor: pointer;
   }
@@ -315,7 +376,7 @@
   
   .container-fluid .gallery .wave {
     position: relative;
-    top: -52vh;
+    top: -19vh;
   }
 
   .container-fluid .gallery .ombak {
@@ -619,7 +680,7 @@
     }
   
     .carousel .carousel-inner .carousel-item .wrapper {
-      height: 73vh;
+      height: 70vh;
     }
   
     .carousel .carousel-inner .carousel-item .wrapper h1 {
@@ -669,9 +730,4 @@
       margin-top: 0;
       margin-left: 0.3vh;
     }
-    
-    .container-fluid .gallery .wave {
-      top: -30vh;
-    }
-
   }
